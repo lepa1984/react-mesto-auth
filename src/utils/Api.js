@@ -49,6 +49,7 @@ class Api {
         const res = await fetch(`${this.baseUrl}/users/me`, {
             method: "PATCH",
             headers: this.headers,
+
             body: JSON.stringify({
                 name: data.name,
                 about: data.about,

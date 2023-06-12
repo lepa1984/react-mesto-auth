@@ -36,8 +36,8 @@ export default function AddPlacePopup(props) {
                     id="location-input"
                     required
                     ref={refName}
-                    // minlength="2"
-                    // maxlength="30"
+                    minlength="2"
+                    maxlength="30"
                 />
                 <span className="form__input-error location-input-error">
                     Вы пропустили это поле.
