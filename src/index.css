@@ -51,3 +51,5 @@
 @import url(./blocks/header/__link/header__link.css);
 @import url(./blocks/header/__links/header__links.css);
 @import url(./blocks/header/__email/header__email.css);
+@import url(./blocks/popup/__image/popup__image.css);
+@import url(./blocks/popup/_info/popup_info.css);

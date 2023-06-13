@@ -122,6 +122,7 @@ export default function App() {
         setProfilePopupOpen(false);
         setAvatarPopupOpen(false);
         setSelectedCard(null);
+        setIsInfoTooltipOpen(false);
     }
     React.useEffect(() => {
         const jwt = localStorage.getItem("jwt");
